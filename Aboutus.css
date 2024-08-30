@@ -14,10 +14,10 @@ p {
 
 .img-fluid {
     border-radius: 10px;
-    margin-right: 40px; /* Add this line to reduce the space between the image and content */
+    margin-left: 50px; /* Add this line to reduce the space between the image and content */
 }
 
 /* If the content is adjacent to the image, add a specific class for the content */
 .content {
-    margin-left: 50px; /* Adjust this value to reduce or increase space between the image and content */
+    margin-right: 1000px; /* Adjust this value to reduce or increase space between the image and content */
 }
