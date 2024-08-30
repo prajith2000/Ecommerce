@@ -1,0 +1,19 @@
+.custom-small-img {
+    width: 100%; /* Adjust this to control the width of the small images */
+    height: 150px; /* Increase the height of the small images */
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.custom-small-img:hover {
+    transform: scale(1.1);
+}
+
+.custom-img-size {
+    width: 100%; /* Adjust the width to fill the container */
+    height: 500px; /* Increase the height of the big image */
+    object-fit: cover;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better appearance */
+}
