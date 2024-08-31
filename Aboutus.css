@@ -1,23 +1,42 @@
-.container {
-    max-width: 1200px;
+.about-us-container {
+    display: flex;
+    justify-content: space-between; /* Ensure space between the image and text */
+    align-items: center;
+    padding: 20px 20px 10px 20px; /* Reduce bottom padding to 10px */
+    background-color: #f0f0f0;
 }
 
-h2 {
-    font-weight: bold;
-    margin-bottom: 20px;
+.about-us-image {
+    flex: 1; /* Allow the image section to take up one portion of the space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px; /* Add more space between the image and text */
 }
 
-p {
-    margin-bottom: 15px;
-    line-height: 1.8;
-}
-
-.img-fluid {
+.about-us-image img {
+    width: 50%; /* Adjust to take full width of its container */
+    height: auto;
     border-radius: 10px;
-    margin-left: 50px; /* Add this line to reduce the space between the image and content */
 }
 
-/* If the content is adjacent to the image, add a specific class for the content */
-.content {
-    margin-right: 1000px; /* Adjust this value to reduce or increase space between the image and content */
+.about-us-text {
+    flex: 2; /* Allow the text section to take up twice the space of the image section */
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-us-text h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.about-us-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
 }
