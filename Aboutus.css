@@ -1,27 +1,30 @@
 .about-us-container {
     display: flex;
-    justify-content: space-between; /* Ensure space between the image and text */
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 10px 20px; /* Reduce bottom padding to 10px */
-    background-color: #f0f0f0;
+    padding: 20px;
+    background-color: lavender; /* Lavender-colored container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-us-image {
-    flex: 1; /* Allow the image section to take up one portion of the space */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 40px; /* Add more space between the image and text */
+    margin-right: 20px; /* Space between image and text */
 }
 
 .about-us-image img {
-    width: 50%; /* Adjust to take full width of its container */
+    width: 80%; /* Adjust image size to medium width */
     height: auto;
+    max-height: 400px; /* Set a maximum height */
     border-radius: 10px;
 }
 
 .about-us-text {
-    flex: 2; /* Allow the text section to take up twice the space of the image section */
+    flex: 2;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
@@ -29,14 +32,16 @@
 }
 
 .about-us-text h2 {
-    font-size: 42px;
-    margin-bottom: 20px;
-    text-align: left; /* Align text to the left */
+    font-size: 36px; /* Adjusted font size */
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 .about-us-text p {
     font-size: 18px;
-    line-height: 1.8;
-    margin-bottom: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
     text-align: justify;
 }
+
+
